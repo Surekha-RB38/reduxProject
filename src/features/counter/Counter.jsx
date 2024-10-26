@@ -10,6 +10,7 @@ function Counter() {
         <h1>Counter: {count}</h1>
         <button onClick={()=>{dispatch(incCount())}}>Increment</button>
         <button onClick={()=>{dispatch(decCount())}}>Decrement</button>
+        <button>submit</button>
     </div>
   )
 }
